@@ -44,7 +44,8 @@
     "@openmrs/esm-stock-management-app": "next",
     "@openmrs/esm-system-admin-app": "next",
     "@openmrs/esm-user-onboarding-app": "next",
-    "@openmrs/esm-ward-app": "next"
+    "@openmrs/esm-ward-app": "next",
+    "@sihsalus/esm-livekit-app": "0.1.0"
   },
   "excludedFrontendModules": []
 }
