@@ -7,6 +7,9 @@ services:
       - backend
     ports:
       - "80:80"
+    environment:
+      LIVEKIT_HOST: ${LIVEKIT_HOST:-host.docker.internal}
+      LIVEKIT_TOKEN_HOST: ${LIVEKIT_TOKEN_HOST:-host.docker.internal}
 
   frontend:
     image: openmrs/openmrs-reference-application-3-frontend:${TAG:-qa}
